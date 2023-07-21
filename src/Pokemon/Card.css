@@ -1,0 +1,64 @@
+.card{
+    border: solid black;
+    box-shadow: rgb(60, 57, 57);
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 120%;
+    background-color: rgb(219, 219, 233);
+}
+
+.card-body{
+    height: 100%;
+    padding: 20px;
+    padding-bottom:20px ;
+}
+
+.card-img-top{
+    border: solid grey;
+    width: 50%;
+    height: 60%;
+    
+}
+
+.list-group-item{
+    text-transform: capitalize;
+}
+
+.search{
+    padding-top: 10px;
+    width: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    border-color: rgb(38, 38, 46);
+    border-radius: 20px;
+}
+
+button{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+
+#magnify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder{
+    padding: 39px;
+}
